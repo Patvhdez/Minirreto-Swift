@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD26CB321C64E85100F98711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26CB311C64E85100F98711 /* AppDelegate.swift */; };
+		CD26CB341C64E85100F98711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26CB331C64E85100F98711 /* ViewController.swift */; };
+		CD26CB371C64E85100F98711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD26CB351C64E85100F98711 /* Main.storyboard */; };
+		CD26CB391C64E85200F98711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD26CB381C64E85200F98711 /* Assets.xcassets */; };
+		CD26CB3C1C64E85200F98711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD26CB3A1C64E85200F98711 /* LaunchScreen.storyboard */; };
+		CD26CB471C64E85400F98711 /* minirretoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26CB461C64E85400F98711 /* minirretoTests.swift */; };
+		CD26CB521C64E85400F98711 /* minirretoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26CB511C64E85400F98711 /* minirretoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD26CB431C64E85400F98711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD26CB261C64E85000F98711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD26CB2D1C64E85000F98711;
+			remoteInfo = minirreto;
+		};
+		CD26CB4E1C64E85400F98711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD26CB261C64E85000F98711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD26CB2D1C64E85000F98711;
+			remoteInfo = minirreto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD26CB2E1C64E85100F98711 /* minirreto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minirreto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD26CB311C64E85100F98711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD26CB331C64E85100F98711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD26CB361C64E85100F98711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD26CB381C64E85200F98711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD26CB3B1C64E85200F98711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD26CB3D1C64E85200F98711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD26CB421C64E85400F98711 /* minirretoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minirretoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD26CB461C64E85400F98711 /* minirretoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minirretoTests.swift; sourceTree = "<group>"; };
+		CD26CB481C64E85400F98711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD26CB4D1C64E85400F98711 /* minirretoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minirretoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD26CB511C64E85400F98711 /* minirretoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minirretoUITests.swift; sourceTree = "<group>"; };
+		CD26CB531C64E85400F98711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD26CB2B1C64E85000F98711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB3F1C64E85400F98711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB4A1C64E85400F98711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD26CB251C64E85000F98711 = {
+			isa = PBXGroup;
+			children = (
+				CD26CB301C64E85100F98711 /* minirreto */,
+				CD26CB451C64E85400F98711 /* minirretoTests */,
+				CD26CB501C64E85400F98711 /* minirretoUITests */,
+				CD26CB2F1C64E85100F98711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD26CB2F1C64E85100F98711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD26CB2E1C64E85100F98711 /* minirreto.app */,
+				CD26CB421C64E85400F98711 /* minirretoTests.xctest */,
+				CD26CB4D1C64E85400F98711 /* minirretoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD26CB301C64E85100F98711 /* minirreto */ = {
+			isa = PBXGroup;
+			children = (
+				CD26CB311C64E85100F98711 /* AppDelegate.swift */,
+				CD26CB331C64E85100F98711 /* ViewController.swift */,
+				CD26CB351C64E85100F98711 /* Main.storyboard */,
+				CD26CB381C64E85200F98711 /* Assets.xcassets */,
+				CD26CB3A1C64E85200F98711 /* LaunchScreen.storyboard */,
+				CD26CB3D1C64E85200F98711 /* Info.plist */,
+			);
+			path = minirreto;
+			sourceTree = "<group>";
+		};
+		CD26CB451C64E85400F98711 /* minirretoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD26CB461C64E85400F98711 /* minirretoTests.swift */,
+				CD26CB481C64E85400F98711 /* Info.plist */,
+			);
+			path = minirretoTests;
+			sourceTree = "<group>";
+		};
+		CD26CB501C64E85400F98711 /* minirretoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD26CB511C64E85400F98711 /* minirretoUITests.swift */,
+				CD26CB531C64E85400F98711 /* Info.plist */,
+			);
+			path = minirretoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD26CB2D1C64E85000F98711 /* minirreto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD26CB561C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirreto" */;
+			buildPhases = (
+				CD26CB2A1C64E85000F98711 /* Sources */,
+				CD26CB2B1C64E85000F98711 /* Frameworks */,
+				CD26CB2C1C64E85000F98711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minirreto;
+			productName = minirreto;
+			productReference = CD26CB2E1C64E85100F98711 /* minirreto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD26CB411C64E85400F98711 /* minirretoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD26CB591C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirretoTests" */;
+			buildPhases = (
+				CD26CB3E1C64E85400F98711 /* Sources */,
+				CD26CB3F1C64E85400F98711 /* Frameworks */,
+				CD26CB401C64E85400F98711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD26CB441C64E85400F98711 /* PBXTargetDependency */,
+			);
+			name = minirretoTests;
+			productName = minirretoTests;
+			productReference = CD26CB421C64E85400F98711 /* minirretoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD26CB4C1C64E85400F98711 /* minirretoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD26CB5C1C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirretoUITests" */;
+			buildPhases = (
+				CD26CB491C64E85400F98711 /* Sources */,
+				CD26CB4A1C64E85400F98711 /* Frameworks */,
+				CD26CB4B1C64E85400F98711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD26CB4F1C64E85400F98711 /* PBXTargetDependency */,
+			);
+			name = minirretoUITests;
+			productName = minirretoUITests;
+			productReference = CD26CB4D1C64E85400F98711 /* minirretoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD26CB261C64E85000F98711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Patrick;
+				TargetAttributes = {
+					CD26CB2D1C64E85000F98711 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8G385Z989N;
+					};
+					CD26CB411C64E85400F98711 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8G385Z989N;
+						TestTargetID = CD26CB2D1C64E85000F98711;
+					};
+					CD26CB4C1C64E85400F98711 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8G385Z989N;
+						TestTargetID = CD26CB2D1C64E85000F98711;
+					};
+				};
+			};
+			buildConfigurationList = CD26CB291C64E85000F98711 /* Build configuration list for PBXProject "minirreto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD26CB251C64E85000F98711;
+			productRefGroup = CD26CB2F1C64E85100F98711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD26CB2D1C64E85000F98711 /* minirreto */,
+				CD26CB411C64E85400F98711 /* minirretoTests */,
+				CD26CB4C1C64E85400F98711 /* minirretoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD26CB2C1C64E85000F98711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD26CB3C1C64E85200F98711 /* LaunchScreen.storyboard in Resources */,
+				CD26CB391C64E85200F98711 /* Assets.xcassets in Resources */,
+				CD26CB371C64E85100F98711 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB401C64E85400F98711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB4B1C64E85400F98711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD26CB2A1C64E85000F98711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD26CB341C64E85100F98711 /* ViewController.swift in Sources */,
+				CD26CB321C64E85100F98711 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB3E1C64E85400F98711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD26CB471C64E85400F98711 /* minirretoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26CB491C64E85400F98711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD26CB521C64E85400F98711 /* minirretoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD26CB441C64E85400F98711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD26CB2D1C64E85000F98711 /* minirreto */;
+			targetProxy = CD26CB431C64E85400F98711 /* PBXContainerItemProxy */;
+		};
+		CD26CB4F1C64E85400F98711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD26CB2D1C64E85000F98711 /* minirreto */;
+			targetProxy = CD26CB4E1C64E85400F98711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD26CB351C64E85100F98711 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD26CB361C64E85100F98711 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD26CB3A1C64E85200F98711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD26CB3B1C64E85200F98711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD26CB541C64E85400F98711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD26CB551C64E85400F98711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD26CB571C64E85400F98711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = minirreto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirreto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD26CB581C64E85400F98711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = minirreto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirreto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD26CB5A1C64E85400F98711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = minirretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minirreto.app/minirreto";
+			};
+			name = Debug;
+		};
+		CD26CB5B1C64E85400F98711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = minirretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minirreto.app/minirreto";
+			};
+			name = Release;
+		};
+		CD26CB5D1C64E85400F98711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = minirretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = minirreto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD26CB5E1C64E85400F98711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = minirretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.minirretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = minirreto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD26CB291C64E85000F98711 /* Build configuration list for PBXProject "minirreto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD26CB541C64E85400F98711 /* Debug */,
+				CD26CB551C64E85400F98711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD26CB561C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirreto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD26CB571C64E85400F98711 /* Debug */,
+				CD26CB581C64E85400F98711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD26CB591C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirretoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD26CB5A1C64E85400F98711 /* Debug */,
+				CD26CB5B1C64E85400F98711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD26CB5C1C64E85400F98711 /* Build configuration list for PBXNativeTarget "minirretoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD26CB5D1C64E85400F98711 /* Debug */,
+				CD26CB5E1C64E85400F98711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD26CB261C64E85000F98711 /* Project object */;
+}
